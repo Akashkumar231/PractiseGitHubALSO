@@ -1,0 +1,50 @@
+
+              						Git Bash Basic Commands
+This commands helps to set the username and the email id in your git
+
+$ git config --global user.name "AkashKumar Yadav"
+
+$ git config --global user.email "ay355231@gmail.com".
+
+Basic commands in the git.
+
+git init
+   creates the git repository where the changes has to stored or preserved;
+git ls-files
+   It list all the files and folders present in the git repository.
+ mkdir
+    creates a local directory in your machine\.
+ ls -a
+   list all the files and folders in the working directory.
+touch Akash.txt
+    creates the filename Akash.txt in the current working directory.
+ cat Filename
+     reads the data of the given file.
+ cat>> Filename
+     it is used to write in the given file.
+git status
+     It gives the status in the git bash terminal.
+git log
+    It gives the list of the commited massage in the repository.
+git add
+    It moves the files in the Working area to the staging area.
+git commit
+    It moves the files from the staging area to the Local Repository.
+git show logcode
+   It gives the more details about the commit that are done by us.
+Vi filename
+  It is used to write in the file the command that is used to exit from the file is 
+  press esc button the write :wq and then press enter to get exit from the VIM editor
+git log --oneline branchname
+  It gives all the commited log in oneline
+git remote add origin link of the remote repository.
+  It connects the local repository to the remote repository
+git remote -v
+  It gives the list that how many repository is connected.
+git push origin branch name 
+ It pushes all the files and folder present in  the local repository to the remote repository
+
+ There are three area in the git 
+1)Working area
+2)Staging area
+3)Local respository
